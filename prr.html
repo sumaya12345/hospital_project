@@ -1,0 +1,74 @@
+<form class="space-y-10 bg-purple-950 text-[10px] text-white w-[500px]">
+            <!-- First row -->
+            <div class="grid grid-cols-2 gap-10">
+                <div class="ml-8 mt-2">
+                    <label class="block text-sm font-medium  mb-1 text-white">Name</label>
+                    <input type="text" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 text-white focus:ring-blue-500">
+                </div>
+                <div class="mr-8 mt-2">
+                    <label class="block text-sm font-medium text-white mb-1">Gender</label>
+                    <select class="w-full px-3 py-2 border border-gray-300 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <option value="">Select</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+            
+            <!-- Second row -->
+            <div class="grid grid-cols-2 gap-4">
+                <div class="ml-8 ">
+                    <label class="block text-sm font-medium text-white mb-1">Email</label>
+                    <input type="email" class="w-full px-3 text-white py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div class="mr-8">
+                    <label class="block text-sm font-medium text-white mb-1">Phone</label>
+                    <input type="tel" class="w-full px-3 py-2 text-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+            </div>
+            
+            <!-- Third row -->
+            <div class="grid grid-cols-2 gap-4">
+                <div  class="ml-8">
+                    <label class="block text-sm font-medium text-white mb-1">Date</label>
+                    <input type="date" class="w-full px-3 text-white py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div  class="mr-8"> 
+                <div class="flex items-end">
+                    <button type="button" class="flex items-center justify-center w-[2] px-3 py-2 border border-gray-300 rounded-md text-black hover:bg-gray-200">
+                        <span class="mr-2">💬</span> Chat
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Fourth row -->
+            <div class="grid grid-cols-2 gap-4">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Doctor</label>
+                    <select class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <option value="">Select Doctor</option>
+                        <option value="dr1">Dr. Smith</option>
+                        <option value="dr2">Dr. Johnson</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Department</label>
+                    <select class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <option value="">Select Department</option>
+                        <option value="cardio">Cardiology</option>
+                        <option value="neuro">Neurology</option>
+                    </select>
+                </div>
+            </div>
+            
+            <!-- Message field -->
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                <textarea rows="4" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+            </div>
+            
+            <!-- Submit button -->
+            <button type="submit" class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors">
+                SUBMIT
+            </button>
+        </form>
