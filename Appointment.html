@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+
+  <div class="flex justify-between py-8 px-10 items-center ">
+        <h1 class="text-blue-900 font-bold text-[40px]">MEDD<span class="text-purple-950">ICAL</span></h1>
+        
+            <div class="flex text-[12px]">
+                <div class="pr-4">
+            <i class="fa-solid fa-phone-volume text-[36px]  ml-60 pt-[2px]"></i>
+                </div>
+                <ul>
+                    <li> <p>EMERGENCY</p></li>
+                    <li><P class="text-blue-500">+252-613955250</P></li>
+                </ul>
+           
+            </div>
+
+
+            <div class="flex text-[12px]">
+                <div class="pr-4">
+            <i class="fa-solid fa-clock  text-[36px]  ml-20 pt-[2px]"></i>
+                </div>
+                <ul>
+                    <li> <p>WORK HOURS</p></li>
+                    <li><P class="text-blue-600">09:00-20:00 Everday</P></li>
+                </ul>
+           
+            </div>
+
+                <div class="flex text-[12px] pl-10  mr-20">
+                <div class="pr-4">
+            <i class="fa-solid fa-location-dot text-[36px]  ml-20 pt-[2px]"></i>
+                </div>
+                <ul>
+                    <li> <p>LOCATION</p></li>
+                    <li><P class="text-blue-600">KAXDA DISRICT</P></li>
+                </ul>
+           
+            </div>
+
+
+        </div>
+
+
+
+        <div class="flex justify-between py-8 px-20 font-semibold bg-purple-950 w-full h-[90px] text-white">
+            <div>
+                <nav >
+                    <ul class="flex gap-10">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html"> About Us</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Doctors.html">Doctors</a></li>
+                <li><a href="News.html">News</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                
+            </ul>
+                </nav>
+                
+            </div>
+
+            <div>
+                <i class="fa-solid fa-magnifying-glass text-[18px]"></i>
+               <a class="bg-purple-100 py-2 px-8 rounded-[20px] text-black ml-10" href="Appointment.html">Appointment</a>
+            </div>
+        </div>
+
+  <div class="bg-cover bg-center h-[280px] w-full" style="background-image: url('pictures/SubHead1.png')">
+
+             
+           <div class=" pl-26 pt-12">
+            <h4 class="text-purple-800 font-sans text-[22px]" >Home / Appointment</h4>
+            <h1 class="font-bold text-[50px] text-purple-900 pt-6">Book An Appointment</h1>
+           </div>
+           </div>
+
+
+
+
+
+
+
+<section class="bg-white py-16 px-6">
+  <div class="flex justify-around">
+
+    <!-- Left: Appointment Form -->
+    <div>
+      <h2 class="text-2xl md:text-3xl font-bold text-purple-700 mb-4">Book an Appointment</h2>
+      <p class="text-[11px]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque et modi minima, assumenda voluptates<br> repellendus sint inventore officiis vero harum. Reiciendis nihil, perspiciatis odit ducimus vel autem error <br>  voluptate fuga, nulla ea similique? Facere amet quae similique doloribus rerum est illo ratione quidem <br>  quidem aliquam odit tempora cupiditate natus e amet quae similique doloribus, rerum estcupidita <br></p>
+      
+ <form class="space-y-10 bg-purple-950 text-[16px] h-[340px] text-white w-[500px] mt-10">
+    
+            <div class="flex gap-10">
+                <div class="ml-8">
+                    
+                    <input class="w-[200px] h-8 border-1 border-white "   type="text" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 text-white focus:ring-blue-500" placeholder="name"> <br>
+                    
+                    <input class="w-[200px] h-8 outline-none border-1 border-white " type="email" class="w-full px-3 text-white py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Email"> <br>
+                    <input class="w-[200px] h-8 border-1 border-white " type="date" class="w-full px-3 text-white py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"> <br>
+                    <select class=" text-white w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <option class="text-black" value="">Select Doctor</option>
+                        <option class="text-black" value="dr1">Dr. Smith</option>
+                        <option class="text-black" value="dr2">Dr. Johnson</option>
+                    </select>
+
+                      <label class="block text-sm font-medium text-white mb-1">Message</label>
+                <textarea rows="4" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                 <button type="submit" class="w-full bg-purple-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors">
+                SUBMIT
+            </button>
+                </div>
+                <div class="mr-8">
+                    <label class="block text-sm font-medium text-white mb-1">Gender</label>
+                    <select class="w-full px-3 py-2 border border-gray-300 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <option value="">Select</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select> <br>
+                    <label class="block text-s8 outline-none font-medium text-white mb-1">Phone</label>
+                    <input class="w-[200px] h-8 border-1 border-white " type="tel" class="w-full px-3 py-2 text-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"> <br>
+                    <label class="block text-sm font-medium text-white mb-1">Department</label>
+                    <select class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <option class="text-black" value="">Select Department</option>
+                        <option class="text-black" value="cardio">Cardiology</option>
+                        <option class="text-black" value="neuro">Neurology</option>
+                    </select>
+                </div>
+
+
+            </div>
+           
+        </form>
+    </div>
+
+    <!-- Right: Schedule Hours -->
+    <div class="bg-purple-950 text-white p-6 rounded w-[400px] h-[500px]">
+      <h3 class="text-4xl font-bold pl-12 pb-6">Schedule Hours</h3>
+      <ul class="space-y-2 text-sm">
+        <li class="flex justify-around"><span>Saturday</span><span class="text-[20px] pn">-</span><span>7:00Am - 5:00Pm</span></li>
+        <li class="flex justify-around"><span>Sunday</span><span class="text-[20px] pl-3">-</span><span>7:00Am - 5:00Pm</span></li>
+        <li class="flex justify-around"><span>Monday</span><span class="text-[20px] pl-3">-</span><span>7:00Am - 5:00Pm</span></li>
+        <li class="flex justify-around"><span>Tuesday</span><span class="text-[20px] pl-3">-</span><span>7:00Am - 5:00Pm</span></li>
+        <li class="flex justify-around"><span>Wednesday</span><span class="text-[20px] pr-2">-</span><span>7:00Am - 5:00Pm</span></li>
+        <li class="flex justify-around"><span>Thursday</span><span class="text-[20px] pl-3">-</span><span>7:00Am - 5:00Pm</span></li>
+        <li class="flex justify-around"><span>Friday</span><span class="text-[20px] ">-</span><span>It's a holiday</span></li>
+      </ul>
+
+      <div class="border-t border-blue-300 mt-6 pt-4">
+        <!-- <p class="text-sm flex items-center gap-2"> -->
+
+          
+            <div class="flex  pl-10 text-[16px]">
+                <div class="pr-4">
+                 <h1>📞</h1>
+                </div>
+                <ul>
+                    <li> <p>Emergency:</p></li>
+                    <li><P class="text-blue-500">(+252)615-94-84-59</P></li>
+                </ul>
+           
+            </div>
+
+        
+      </div>
+    </div>
+
+  </div>
+</section>
+
+           <div class="bg-cover bg-center w-[1000px] h-[440px] mb-10 ml-30 mt-10" style="background-image: url('pictures/22aad.png');"></div>
+
+
+
+
+            <div class="text-center">
+            <h1 class="text-purple-700 text-[30px] font-bold">GET IN TOUCH</h1>
+            <h1 class="text-purple-950 text-[40px] font-bold">Contact</h1>
+        </div>
+
+
+        <div class="flex text-center items-center gap-10 mb-6 ml-20 mt-10">
+            <div class="w-[250px] h-[200px] bg-purple-300">
+            <i class="fa-solid fa-phone-volume text-[36px] mr-32  mt-10 pt-[2px]"></i>
+            <h1 class="text-black font-bold  pr-10 pt-2">EMERGENCY</h1>
+            <p class="text-black font-sans ">(+252) 615-94-84-59</p>
+            <p class="text-black font-sans  ">(+252) 615-94-84-59</p>
+
+            </div>
+            <div class="w-[250px] h-[200px] bg-purple-950 text-white ">
+             <i class="fa-solid fa-location-dot text-[36px]  mr-32 mt-10 pt-[2px]"></i>
+            <h1 class="text-white font-bold pt-2 pr-15">LOCATION</h1>
+            <ul>
+            <li class="text-white font-sans pr-5">876 roraye street</li>
+            <li class="text-white font-sans ">910 Dabaqeyn Road</li>
+            </ul>
+            </div>
+            <div class="w-[250px] h-[200px] bg-purple-300">
+                <i class="fa-solid fa-envelope text-[36px]  mr-32 mt-10 pt-[2px] "></i>
+            <h1 class="text-black font-bold pt-2 pr-28">EMIAL</h1>
+            <ul>
+            <li class="text-black font-sans pr-10">876 roraye street</li>
+            <li class="text-black font-sans pr-5">910 Dabaqeyn Road</li>
+            </ul>
+            </div>
+            <div class="w-[250px] h-[200px] bg-purple-400">
+            <i class="fa-solid fa-clock  text-[36px]  mr-32 mt-10 pt-[2px] "></i>
+
+            <h1 class="text-black font-bold pt-2 pr-28">EMIAL</h1>
+            <ul>
+            <li class="text-black font-sans pr-10">876 roraye street</li>
+            <li class="text-black font-sans pr-5">910 Dabaqeyn Road</li>
+            </ul>
+            </div>
+        </div>
+
+
+
+        <div class="bg-purple-950 w-full h-[550px] relative">
+
+            <div class="flex gap-10 bg-purple-950 pl-20 pt-26 text-white text-center ">
+            <div>
+                <h1 class="font-bold text-gray-500 text-5xl">MEDDICAL</h1>
+                <p class=" font-bold text-[16px] pt-6">Leading the Way in Medical <br> Execellence, Trusted Care.</p>
+            </div>
+
+            <div class="ml-4">
+                <h1 class="font-bold text-2xl">Important Links</h1>
+                <ul class="pr-20 pt-6 text-[16px] flex flex-col">
+                    <a class="pt-2" href="Appointment.html">Appointment</a>
+                    <a class="pt-2" href="Services.html">Services</a>
+                    <a class="pt-2" href="Doctors.html">Doctors</a>
+                    <a class="pt-2" href="About.html">About</a>
+                </ul>
+            </div>
+            <div class="ml-4">
+                <h1 class="font-bold text-2xl pb-6">Contact Us </h1>
+                <ul>
+                    <li class="pb-4">Call: (+252) 615-94-84-59</li>
+                    <li class="pb-4">Email: medi12@gmail.com</li>
+                    <li class="pb-4">Location: 910 Dabaqeyn road</li>
+                    
+                </ul>
+            </div>
+            <div class="ml-10">
+                <h1 class="font-bold text-2xl">Newsletter</h1>
+                <form class="bg-purple-200 text-black px-10 py-3 rounded-lg mt-4">
+                    <input class="" type="text" placeholder="enter your email address">
+                </form>
+            </div>
+            </div>
+
+            <div class="w-[1100px] h-0.5 ml-20 bg-purple-200 absolute top-90"></div>
+
+            <div class="flex justify-between items-center mt-44 mb-10">
+            <p class="text-white pl-18">© 2025 Meddical Hospital All rights Reserved.</p>
+
+            <div class="text-white mr-52 ">
+                <i class="fa-brands fa-invision pt-4"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            </div>
+
+        </div>
+
+
+
+</body>
+</html>
